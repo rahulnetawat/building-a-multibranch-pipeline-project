@@ -16,7 +16,7 @@ pipeline {
             }
             steps {
                 sh 'echo "Hello from Master Branch !!"'
-                sh 'echo "Mi Mobile."'
+                sh 'echo "Commit #1"'
             }
         }
     }
