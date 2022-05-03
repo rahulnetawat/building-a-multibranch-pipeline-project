@@ -7,6 +7,7 @@ pipeline {
             }
             steps {
                 sh 'echo "Hello from Develop Branch !!"'
+                sh 'echo "Commit #2"'
             }
         }
 
