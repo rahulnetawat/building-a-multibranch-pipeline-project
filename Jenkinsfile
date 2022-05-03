@@ -19,5 +19,14 @@ pipeline {
                 sh 'echo "Commit #1"'
             }
         }
-    }
+        stage('Fix Branch Build') {
+            when {
+                branch 'fix-123'
+            }
+            steps {
+                sh 'echo "Hello from Fix Branch !!"'
+                sh 'echo "Commit #1 from Fix branch"'
+            }
+        }
+  }
 }
