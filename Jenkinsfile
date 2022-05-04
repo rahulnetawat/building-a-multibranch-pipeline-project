@@ -17,6 +17,7 @@ pipeline {
             steps {
                 sh 'echo "Hello from Master Branch !!"'
                 sh 'echo "Commit #1"'
+                sh 'echo "Commit #2"'
             }
         }
     }
